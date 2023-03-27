@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <form action="result.html">
+            <h1>글 작성하기</h1>
+            <br>
+            <tr>
+                <td><label for="name">작성자</label></td>
+                <td><input type="text" name="name" id="name" size ="15"></td>
+                <br>
+            </tr>
+            
+            <tr>
+                <td><label for="id">아이디</label></td>
+                <td><input type="text" name="id" id="id" size ="15"></td>
+            </tr>
+            <br>
+            <tr>
+                <td><label for="email">이메일</label></td>
+                <td><input type="email" name="email" id="email" size ="15"></td>
+                <td>@</td>
+                <select >
+                    <optgroup>
+                        <option>gmail.com</option>
+                        <option>naver.com</option>
+                        <option>hanmail.com</option>
+                    </optgroup>
+                </select>
+            </tr>
+            <br>
+            <tr>
+                <td><label for="num">휴대폰</label></td>
+                <select >
+                    <optgroup>
+                        <option>010</option>
+                        <option>011</option>
+                        <option>019</option>
+                    </optgroup>
+                </select>
+                <td>-</td>
+                <td><input type="number" name="num" id="num" size ="4"></td> <!-- type ="number" 칸이 고정됨 사이즈 변경이안됨-->
+                <td>-</td>
+                <td><input type="num" name="num" id="num" size ="4"></td>
+            </tr>
+            <br>
+            <tr>
+            <td><label for="head">글제목</label></td>
+            <td><input type="text" name="head" id="head" size ="15"></td>
+            </tr>
+            <br>
+            <tr>
+                <td>내용</td>
+                <td><textarea name="inin" cols="30" rows="10"></textarea></td>
+            </tr>
+                <br>
+            <button type="submit">제출</button>
+        </form>
+    </fieldset>
+    
+</body>
+</html>
