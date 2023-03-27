@@ -7,7 +7,37 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="result.html">
+        <select name="food1">
+            <option value="kimbab">김밥</option>
+            <option value="ddukboki">떡볶이</option> <!--실행시 주소란 ddukboki -->
+            <option value="ramen">라면</option>
+        </select>
+        <br><br><br><br><br>
+        <select name="food2" multiple = "multiple">
+            <option value="coke">콜라</option>
+            <option value="cyder">사이ㅏㄷ</option> 
+            <option value="juice">주스</option>
+            <option value="water">물</option>
+            <!-- 두 표에서 선택한 값 value 주소란 표시-->
+        </select>
+        <br><br><br><br><br>
+        <select name="food3">
+            <optgroup label="분식">
+                <option value="kimbab">김밥</option>
+                <option value="ddukboki">떡볶이</option> <!--실행시 주소란 ddukboki -->
+                <option value="ramen">라면</option>
+            </optgroup>
+            <optgroup label="음료">
+                    <option value="coke">콜라</option>
+                    <option value="cyder">사이ㅏㄷ</option> 
+                    <option value="juice">주스</option>
+                    <option value="water">물</option>
+            </optgroup>
+        </select>
+        <br>
+        <button type = "submit">전송</button>
+    </form>
     
 </body>
 </html>
